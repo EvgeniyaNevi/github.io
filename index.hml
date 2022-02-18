@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Резюме</title>
+
+  <!--Отобразить страницу в масштабе 100%-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Инструкция для IE-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Нормализация стилей-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+  <!-- HEADER-->
+  <div id="header">
+    <h1 class="header-title"> Евгения Невинная</h1>
+    <h2 class="header-title"> Веб-разработчик</h2>
+    <p>
+      <a href="mailto:evgeniya.nevinnaya@gmail.com">evgeniya.nevinnaya@gmail.com </a>
+      <span>, </span>
+      <a href="https://www.linkedin.com/in/evgeniya-nevinnaya/">linkedin.com/in/evgeniya-nevinnaya </a>
+    </p>
+  </div>
+
+  <!-- MAIN-->
+  <div id="main">
+    <div class="section">
+      <div class="section_item">
+        <div class="section_content">
+          <p>Ищу работу на позицию Junior Front-End Developer, HTML-верстальщик удалённо. Неполный рабочий день.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section_title"> Опыт работы </h2>
+
+      <div class="section_item">
+        <div class="item_header">
+          <h3 class="item_title">Черниговский обласной центр социальных служб</h3>
+          <h4 class="item_subtitle">Специалист организационного отдела,
+            <span class="italic">ноябрь 2015 - настоящее время </span>
+          </h4>
+        </div>
+
+        <div class="item_content">
+          <ul>
+            <li>Администрирование сайта</li>
+            <li>Ведение документации</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section_item">
+        <div class="item_header">
+          <h3 class="item_title">Новгород-Северское медицинское училище</h3>
+          <h4 class="item_subtitle">Администратор (оператор) ЕГЭБО
+            (Единая государственная электронная база по вопросам образования),
+            <span class="italic">сентябрь 2014 - август 2015 </span>
+          </h4>
+        </div>
+
+        <div class="item_content">
+          <ul>
+            <li>Организация работы базы</li>
+            <li>Внесение/редактирование данных</li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="section_item">
+        <div class="item_header">
+          <h4 class="item_subtitle">Преподаватель информатики,
+            <span class="italic">сентябрь 2012 - август 2015 </span>
+          </h4>
+        </div>
+
+        <div class="item_content">
+          <ul>
+            <li>Преподавание дисциплины "Информатика"</li>
+            <li>Администрирование сайта учебного заведения</li>
+            <li>Администрирование локальной сети компьютерного класса</li>
+            <li>Установка программного обеспечения</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <h2 class="section_title"> Образование </h2>
+
+      <div class="section_item">
+        <div class="item_header">
+          <h3 class="item_title">Черниговский национальный педагогический университет им.Т.Г.Шевченка</h3>
+          <h4 class="item_subtitle">Физико-математический факультет,
+            <span class="italic">2007 - 2012</span>
+          </h4>
+        </div>
+
+        <div class="item_content">
+          <p>Учитель информатики. Учитель английского языка.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section_title"> Другие навыки и увлечения </h2>
+      <div class="section_item">
+        <div class="item_content">
+          <ul>
+            <li>Кулинария</li>
+            <li>Путешествия</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER-->
+  <div id="footer">
+    <p>Евгения Невинная</p>
+    <a href="mailto:evgeniya.nevinnaya@gmail.com">evgeniya.nevinnaya@gmail.com </a>
+    <p>Напишите мне, если Вас заинтересовало мое резюме</p>
+  </div>
+
+</body>
+
+</html>
